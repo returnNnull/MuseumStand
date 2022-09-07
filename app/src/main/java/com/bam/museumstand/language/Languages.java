@@ -1,4 +1,4 @@
-package com.bam.museumstand;
+package com.bam.museumstand.language;
 
 public enum Languages {
     RUS,

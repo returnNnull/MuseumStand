@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/botton_nav_graph"
+    app:startDestination="@id/navigation_exhibit">
+
+    <fragment
+        android:id="@+id/navigation_author"
+        android:name="com.bam.museumstand.AuthorFragment"
+        android:label="@string/author"
+        tools:layout="@layout/fragment_author" />
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.bam.museumstand.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/navigation_exhibit"
+        android:name="com.bam.museumstand.ExhibitFragment"
+        android:label="@string/exhibit"
+        tools:layout="@layout/fragment_exhibit" />
+</navigation>

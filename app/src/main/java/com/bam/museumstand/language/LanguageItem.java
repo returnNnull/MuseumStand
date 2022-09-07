@@ -1,4 +1,4 @@
-package com.bam.museumstand;
+package com.bam.museumstand.language;
 
 import android.graphics.drawable.Drawable;
 

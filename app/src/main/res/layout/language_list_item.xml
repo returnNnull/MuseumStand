@@ -5,20 +5,20 @@
     <data>
         <variable
             name="language"
-            type="com.bam.museumstand.LanguageItem" />
+            type="com.bam.museumstand.language.LanguageItem" />
 
     </data>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:layout_margin="15dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:cardCornerRadius="50dp">
+            android:layout_width="70dp"
+            android:layout_height="50dp">
 
             <ImageView
                 android:layout_width="match_parent"
